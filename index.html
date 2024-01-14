@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Last Semester Vibes</title>
+        <!-- icon -->
+        <link
+            rel="icon"
+            href="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png"
+            type="image/x-icon">
+        <!--css-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous">
+        <link href="static/style.css" rel="stylesheet"/>
+
+        <!-- javaScript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="static/index.js"></script>
+        <!-- bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+
+        <!--font style-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Source+Serif+Pro&display=swap"
+            rel="stylesheet">
+
+        <!-- AOS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/66c1c7402f.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- header-->
+        <header>
+            <i
+                class="fas fa-adjust"
+                onclick="changeMode()"
+                style="position:absolute;right:9px;margin-top:9px;"></i>
+            <i
+                id="HS3"
+                class="fas fa-plus-circle"
+                onclick="addHS()"
+                style="position:absolute;margin-top:38px;right: 9px;"></i>
+            <div class="heading">
+                <div class="head_name1">
+                    <i class="fas fa-signal"></i>
+                    <div
+                        class=""
+                        data-aos="fade-right"
+                        data-aos-delay="100"
+                        data-aos-duration="2000"
+                        style="display:inline-flex;font-family: 'Mea Culpa', cursive;"
+                        >
+                        &nbsp Last Semester Vibes
+                    </div>
+
+                </div>
+                <div class="head_name2">
+                    Eighth Semester of Computer Science and Engineering Branch
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- Slides -->
+
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide border"
+        data-bs-ride="carousel"> <div class="carousel-inner"> <div class="carousel-item
+        active"> <img src="template\img3.png" class="d-block w-100 " alt="welcome">
+        </div> <div class="carousel-item"> <img src="template\img4.png" class="d-block
+        w-100" alt="cr"> </div> <div class="carousel-item"> <img src="template\img5.png"
+        class="d-block w-100" alt="senator"> </div> </div> </div> -->
+
+        <br>
+
+        <!-- class links -->
+        <div
+            class="cl"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2000">
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Days
+                </div>
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Monday
+                </div>
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Tuesday
+                </div>
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Wednesday
+                </div>
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Thrusday
+                </div>
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Friday
+                </div>
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    Saturday
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    07:30 - 08:30
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    IHS-422
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    </div>
+                    <div class="col-2  ">
+                    </div>
+            </div> -->
+
+
+            <!-- 8:30 to 9:30-->
+
+            <!-- <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    08:30 - 09:30
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+            </div> -->
+
+            <!---->
+
+            <!-- 9:30 to 10:30-->
+
+            <!-- <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    09:30 - 10:30
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+            </div> -->
+
+            <!---->
+
+            <!-- 10:30 to 11:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    10:30 - 11:30
+                </div>
+                <div class="col-2  ">
+                    CS-417
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-417
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    IHS-402
+                </div>
+            </div>
+
+            <!---->
+
+            <!-- 11:30 to 12:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    11:30 - 12:30
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-417
+                </div>
+                <div class="col-2  ">
+                    IHS-402
+                </div>
+            </div>
+
+            <!---->
+
+            <!-- 12:30 to 1:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    12:30 - 01:30
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-432 : L
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-432 : L
+                </div>
+                <div class="col-2  ">
+                </div>
+            </div>
+
+            <!---->
+
+            <!-- Lunch Break -->
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    01:30 - 02:30
+                </div>
+                <div  class="col-10  ">
+                    Lunch Break
+                </div>
+                
+            </div>
+
+            <!-- -->
+
+            <!-- 2:30 to 3:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    02:30 - 03:30
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-419
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-432 : P
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                </div>
+            </div>
+
+            <!---->
+
+            <!-- 3:30 to 4:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    03:30 - 04:30
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-419
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    CS-432 : P
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                </div>
+            </div>
+
+            <!---->
+
+            <!-- 4:30 to 5:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    04:30 - 05:30
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    CS-419
+                </div>
+            </div>
+
+            <!---->
+
+            <!-- 5:30 to 6:30-->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    05:30 - 06:30
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    CS-403 : P
+                </div>
+                <div class="col-2  ">
+                    IHS-422
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    CS-403
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+            </div>
+
+            <!---->
+
+            <div class="row">
+                <div
+                    class="col-2  "
+                    style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);color: black;">
+                    06:30 - 07:30
+                </div>
+                <div class="col-2  ">
+                    IHS-422
+                </div>
+                <div class="col-2  ">
+                    CS-403 : P
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+                <div class="col-2  ">
+                    IHS-422
+                </div>
+                <div class="col-2  ">
+                    CS-403
+                </div>
+                <div class="col-2  ">
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <br>
+
+        <div
+            class=""
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            style="background-color: rgb(5, 6, 45);">
+            <div class="" style="font-size:40px; color:blue;"></div>
+
+            <div class="course">
+                <span>CS-403 : Machine Learning</span>
+                
+               
+            </div>
+            <div class="course">
+              <span>CS-417 : Cryptography and Network Security</span>
+              
+             
+          </div>
+          <div class="course">
+            <span>CS-419 : Computer Vision</span>
+            
+           
+        </div>
+    <div class="course">
+      <span>CS-432 : Reinforcement Learning</span>
+      
+     
+  </div>
+  <div class="course">
+    <span>IHS-402 : Twentieth Century World History: Critical Perspectives</span>
+    
+   
+</div>
+<div class="course">
+  <span>IHS-422 : Development Economics</span>
+  
+ 
+</div>
+           
+           
+
+        </div>
+        <br><br>
+
+        <!-- MyClouds links -->
+<!-- 
+        <div
+            class=""
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            style="background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);">
+            <div class="" style="font-size:50px; color:blue;">
+                Study Materials
+
+            </div>
+
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/1snrsfuKjiGG4qWzsxdnBiJXWvFbYWJiu?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-302</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/16sVOwjIALxqSg1Qmysshf8QppD7dkZZk?usp=sharing"
+                        target="_blank"
+                        ;=";">CS-304</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/1jtmONTx-aJyc3fKXxm2KJ4IfrwbGy9LL?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-306</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/115C1r2wdOxtjO9EiN6pNts5tQX3sjwC3?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-308</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/1egmWm3uHO9n24FtXAICXwpVaFL-Itf6y?usp=sharing"
+                        target="_blank"
+                        ;=";">HS-302</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/1iWmOsn5CIU3v04s4Dy4nAo0-QRt6jMJC?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-352</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/10S61cRICwm1eJl1FB-nLz9A2IHnZ0ut_?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-354</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/1KP44iIe4R_Jt_0IDWSs1paexp1u73l4D?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-356</a></span></button>
+            <button class="button-64" role="button">
+                <span>
+                    <a
+                        href="https://drive.google.com/drive/folders/1wBYLlfKqYJDHy5D48CKIRyLSy0xvxl_6?usp=share_link"
+                        target="_blank"
+                        ;=";">CS-358</a></span></button>
+
+            <br>
+            &nbsp
+
+        </div> -->
+
+        <br>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
+</html>
